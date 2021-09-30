@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:lightblue;
+}
+
+h1{
+    font-size:10rem;
+}
+
+.pixel{
+    width: 5rem;
+    height: 5rem;
+    background-color:white;
+}
+.pixel:hover{
+    background-color:black;
+}
+.canvas{
+    width: 80rem;
+    height: 80rem;
+    display:flex;
+    flex-wrap: wrap;
+}
